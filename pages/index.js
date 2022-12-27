@@ -42,7 +42,7 @@ const Home = () => {
       <div className="container">
         <div className="header">
           <div className="header-title">
-            <h1>Hi, Ask me anything </h1>
+            <h1>Hi, Ask me to write any story </h1>
           </div>
           <div className="header-subtitle">
             <h2>I'll try my best to answer</h2>
