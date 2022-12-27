@@ -45,11 +45,11 @@ const Home = () => {
             <h1>Hi, Ask me anything </h1>
           </div>
           <div className="header-subtitle">
-            <h2>Try my best to answer</h2>
+            <h2>I'll try my best to answer</h2>
           </div>
         </div>
         <div className="prompt-container">
-          <textarea placeholder="start typing here" className="prompt-box" value={userInput} onChange={onUserChangedText} />
+          <textarea placeholder="E.g: Write a funny story about Pizza" className="prompt-box" value={userInput} onChange={onUserChangedText} />
           <div className="prompt-buttons">
             <a className="generate-button" onClick={callGenerateEndpoint}>
               <div className="generate">
