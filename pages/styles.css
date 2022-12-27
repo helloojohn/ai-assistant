@@ -361,7 +361,7 @@ textarea {
 @media (max-width: 600px) {
     .container {
         max-width: 400px;
-        width: 100%;
+        width: 80%;
     }
 
     .header-title h1 {
